@@ -54,7 +54,7 @@
 	</div>
 
 	<!-- GALLERY -->
-	<?php $path="./data/images/slider/"; ?>
+	<?php $path="images/slider/"; ?>
 	<div class="gallery">
 		<img src="<?php echo $path; ?>1.jpg" onclick="infos('anniv',this)" />
 		<img src="<?php echo $path; ?>2.jpg" onclick="infos('noel',this)" class="start"  />

@@ -13,7 +13,7 @@
 			$theme=$event;
 		}
 	}
-	$file="./data/theme/$theme.php";
+	$file="./theme/$theme.php";
 	if (file_exists($file)){
 		include($file);
 	}
