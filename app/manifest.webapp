@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "name": "Online Greeting Cards",
+  "launch_path": "/index.php",
+  "description": "A web app to create and send personalized modern online greeting cards.",
+  "icons": {
+    "128": "/images/touch/icon-128x128.png"
+  },
+  "developer": {
+    "name": "Yoann Moise",
+    "url": "http://www.yoann-moise.com"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Online Greeting Cards",
+      "description": "A web app to create and send personalized modern online greeting cards."
+    }
+  }
+}
