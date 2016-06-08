@@ -72,22 +72,22 @@
 	<!-- MAIN TITLE -->
 	<div class="mainTitle"><span><?php echo $titleFete; ?></span></div>
 
-	<!-- MUSIQUE -->
+	<!-- MUSIC-->
 	<audio autoplay loop><source src="<?php echo $music; ?>"></audio>
 
 	<!-- IMAGE -->
 	<img class="img" src="<?php echo $img; ?>" />
 
-	<!-- TEXTE -->
+	<!-- TEXT -->
 	<div class="txt">
-		<!-- - TITRE DU VOEUX -->
+		<!-- - WISH TITLE -->
 		<span class="title"><?php echo $titleFete; ?></span>
 		<br>
-		<!-- - MSG DU VOEUX -->
+		<!-- - WISH MESSAGE -->
 		<span class="msg"><?php echo $leName; ?></span>
 	</div>
 
-	<!-- BAS DE PAGE : posLink -->
+	<!-- FOOTER : posLink -->
 	<?php include("creditLink.php") ?>
 </body>
 </html>
